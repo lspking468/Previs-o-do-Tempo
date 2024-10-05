@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="icon" href="../assets/imgs/image-previsao_tempo.ico">
+    <script src="../assets/JavaScript/script.js"></script>
+</head>
+
+<body>
+    <header class="titulo_container">
+        <h1 class="titulo_site">Climatologia Geral</h1>
+        <img class="imagem_icone_previsao" src="../assets/imgs/image-previsao_tempo.png" alt="">
+    </header>
+
+    <div class="caixa_previsao">
+        <div class="busca_cidades">
+            <input type="text" placeholder="Digite o nome da cidade" class="input_busca_cidades">
+            <button class="botao_procurar_cidades" onclick="buscar_climatologia()">
+                <img src="https://www.svgrepo.com/show/488200/find.svg" alt="" class="imagem_busca">
+            </button>
+        </div>
+
+        <h2 class="tempo_estado"></h2>
+
+        <p class="graus_celsius">
+            
+        </p>
+
+        <div class="precipitacao">
+            <p class="json_precipitacao">
+                
+            </p>
+            <img  alt="" class="simbologia_precipitacao">
+        </div>
+
+        <p class="umidade">
+            
+        </p>
+    </div>
+    <div class="container_info">
+        <p class="informacoes_site">Trazemos informações em tempo real da previsão de tempo de todos as regiões, cidades e países de todos os continentes</p>
+    </div>
+</body>
+
+</html>
