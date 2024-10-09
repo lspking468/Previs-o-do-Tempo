@@ -44,9 +44,3 @@ function buscar_climatologia() {
         buscar_cidade(estado);
     }
 }
-
-function buscar_climatologia() {
-    const estado = document.querySelector(".input_busca_cidades").value
-
-    buscar_cidade(estado)
-}
